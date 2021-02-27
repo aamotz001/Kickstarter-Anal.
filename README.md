@@ -26,6 +26,7 @@ One particulary important analysis which was performed, involves looking at the 
 **Figure 2: Pivot Table.**
 
 ![alt text](https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Theater_Outcomes_VS_Launch.png)
+
 **Figure 3: Theater Outcomes VS Launch date.**
 
 ### Analysis of Outcomes Based on Goals
@@ -46,7 +47,7 @@ Challenges during this analysis involved understanding how the interplay between
 Two conclusions to be drawn from the Outcomes VS Launch date chart are that (a) the number of succcsessful campaigns significantly increases at the beginning of summer (May). It should be considered that the largest amount of campain donations comes from the united states (Fig 5), so it may be because the end of the school year in the US coincides with May, and is far away from holiday spending. 
 
 ![alt text](https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Total%20Funding%20by%20Country.png)
-**Figure 5: Total donation by country.
+**Figure 5: Total donation by country.**
 
 Another conclusion is that the number of failed and canceled campaigns are relatively constant throughout the year - meaning that a high-risk vs low-risk campaign can take place any time of the year.
 
