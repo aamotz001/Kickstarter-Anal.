@@ -12,12 +12,12 @@ Our purpose is to help a client, Louise, with a fundraising campaign for her pla
 
 To begin our analysis for Louise, we started by getting to know the data by looking at basic information, such as: how many data points there are, what types of data are there, what kind of categories and the overall format of the data. We then took the step of converting data into different formats when needed, for example, by converting the timestamp into a date that would make sense to the average person. We also made some changes to the data so it was better presented, for instance we split apart the parent and subcategory column into two columns. 
 
-** Figure 1: Time-stamp converted column. **
+__ Figure 1: Time-stamp converted column. __
 
 Next, we worked on making sense of the data by applying visual ques to the cells, such as shading a cell based on the magnitude of its value. This proved to be insightful as it exposed the fact that there are some serious outlieres in the set.
 
 
-** Figure 2: Shading by percentage funded. ** 
+__ Figure 2: Shading by percentage funded. __ 
 
 We then decided to help Louise set up her incentives by looking at the average donation amount. This involved averaging and looking at rounded data as percentage funded, and using error control to keep the results sane (for example setting values equal to zero when there was a zero in the denominator of the average). Using pivot tables to summarize data, and produce plots from that. Using search and filters to simplify data sets. Using vlookup to hone in on a specific subset. Looking at success versus type of input. Analyzed some measures of central tendancies.
 
@@ -27,17 +27,17 @@ We then decided to help Louise set up her incentives by looking at the average d
 One particulary important analysis which was performed, involves looking at the outcomes of various theater kickstarters by the time of year in which the campaign was launched. To do this, a pivot table was constructed using a filter over the parent category (so that the theater category could be considered on its own). The pivot table summarized data based on the total number of plays launched during a particular month (summing over all years) and looked at the three outcomes (successful, failed or canceled). Below are images showing the pivot table as well as the chart produced from the pivot table. 
 
 
-** Figure 3: Pivot Table. **
+__ Figure 3: Pivot Table. __
 
 
-** Figure 3: Theater Outcomes VS Launch date. **
+__ Figure 3: Theater Outcomes VS Launch date. __
 
 ### Analysis of Outcomes Based on Goals
 
 Another important analysis performed was based upon looking at the outcome of campaigns based on the goal amount. In order to do so, we had to use a special function, COUNTIFS, that would count the number of data points which mactched a particular criterion. This was an important thing to learn as it allows us to parse down large amounts of data into categories that we define. In this case, we were interested in seeing how the magnitude of the goal affected the success. Based on the results we gleamed using the COUNTIFS function, a line chart was produced as shown below.
 
 
-** Figure 4: Outcomes VS Goals. **
+__ Figure 4: Outcomes VS Goals. __
 
 ### Challenges and Difficulties Encountered
 
