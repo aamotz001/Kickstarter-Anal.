@@ -22,17 +22,17 @@ We then decided to help Louise set up her incentives by looking at the average d
 
 One particulary important analysis which was performed, involves looking at the outcomes of various theater kickstarters by the time of year in which the campaign was launched. To do this, a pivot table was constructed using a filter over the parent category (so that the theater category could be considered on its own). The pivot table summarized data based on the total number of plays launched during a particular month (summing over all years) and looked at the three outcomes (successful, failed or canceled). Below are images showing the pivot table (Fig 2) as well as the chart produced from the pivot table (Fig 3). 
 
-https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Fig2.png
+![alt text](https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Fig2.png)
 **Figure 2: Pivot Table.**
 
-https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Theater_Outcomes_VS_Launch.png
+![alt text](https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Theater_Outcomes_VS_Launch.png)
 **Figure 3: Theater Outcomes VS Launch date.**
 
 ### Analysis of Outcomes Based on Goals
 
 Another important analysis performed was based upon looking at the outcome of campaigns based on the goal amount. In order to do so, we had to use a special function, COUNTIFS, that would count the number of data points which mactched a particular criterion. This was an important thing to learn as it allows us to parse down large amounts of data into categories that we define. In this case, we were interested in seeing how the magnitude of the goal affected the success. Based on the results we gleamed using the COUNTIFS function, a line chart was produced as shown below (Fig 4).
 
-https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Outcomes_VS_Goals.png
+![alt text](https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Outcomes_VS_Goals.png)
 **Figure 4: Outcomes VS Goals.** 
 
 ### Challenges and Difficulties Encountered
@@ -45,7 +45,7 @@ Challenges during this analysis involved understanding how the interplay between
 
 Two conclusions to be drawn from the Outcomes VS Launch date chart are that (a) the number of succcsessful campaigns significantly increases at the beginning of summer (May). It should be considered that the largest amount of campain donations comes from the united states (Fig 5), so it may be because the end of the school year in the US coincides with May, and is far away from holiday spending. 
 
-https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Total%20Funding%20by%20Country.png
+![alt text](https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Total%20Funding%20by%20Country.png)
 **Figure 5: Total donation by country.
 
 Another conclusion is that the number of failed and canceled campaigns are relatively constant throughout the year - meaning that a high-risk vs low-risk campaign can take place any time of the year.
