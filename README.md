@@ -12,7 +12,7 @@ Our purpose is to help a client, Louise, with a fundraising campaign for her pla
 
 To begin our analysis for Louise, we started by getting to know the data by looking at basic information, such as: how many data points there are, what types of data are there, what kind of categories and the overall format of the data. We then took the step of converting data into different formats when needed, for example, by converting the timestamp into a date that would make sense to the average person (Fig 1). We also made some changes to the data so it was better presented, for instance we split apart the parent and subcategory column into two columns. We worked on making sense of the data by applying visual ques to the cells, such as shading a cell based on the magnitude of its value. This proved to be insightful as it exposed the fact that there are some serious outlieres in the set (Fig1).
 
-
+![alt text](https://github.com/aamotz001/Kickstarter-Analysis/blob/main/Fig1.png)
 **Figure 1: Time-stamp converted column and shading by percentage funded.**  
 
 We then decided to help Louise set up her incentives by looking at the average donation amount. This involved averaging and looking at rounded data as percentage funded, and using error control to keep the results sane (for example setting values equal to zero when there was a zero in the denominator of the average). Using pivot tables to summarize data, and produce plots from that. Using search and filters to simplify data sets. Using vlookup to hone in on a specific subset. Looking at success versus type of input. Analyzed some measures of central tendancies.
